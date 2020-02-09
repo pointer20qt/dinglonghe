@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/">
+        <file>qss1/qiaodao.jpg</file>
+    </qresource>
+</RCC>

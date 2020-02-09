@@ -1,0 +1,15 @@
+<RCC>
+    <qresource prefix="/">
+        <file>cancel.jpg</file>
+        <file>chenxu.jpg</file>
+        <file>exit.jpg</file>
+        <file>password.jpg</file>
+        <file>qs1.qrc</file>
+        <file>queren.jpg</file>
+        <file>select.jpg</file>
+        <file>time.jpg</file>
+        <file>user.jpg</file>
+        <file>qiaodao.jpg</file>
+        <file>qiandao1.png</file>
+    </qresource>
+</RCC>
