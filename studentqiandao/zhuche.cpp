@@ -19,6 +19,10 @@ zhuche::zhuche(QWidget *parent) :
     connect(ui->cancelbtn,QPushButton::clicked,[=](){
         login *l=new login();
         l->show();
+
+
+
+
         this->close();
     });
 
