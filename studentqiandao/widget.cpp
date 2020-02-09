@@ -82,12 +82,16 @@ void Widget::classselecgt()
 //按学号查看学生信息
 void Widget::snoselecgt()
 {
-    connect(ui->pushButtonselect,QPushButton::clicked,[=](){
-        QSqlQuery q1;
-       q1.exec(QString("select * from student where sno=%1").arg(ui->lineEdit_2->text()));
-        ui->tableWidget->clearContents();
-        addstundet(q1);
-    });
+
+        connect(ui->pushButtonselect,QPushButton::clicked,[=](){
+            if(!ui->lineEdit_2->text().isEmpty())
+            {
+                QSqlQuery q1;
+               q1.exec(QString("select * from student where sno=%1").arg(ui->lineEdit_2->text()));
+                ui->tableWidget->clearContents();
+                addstundet(q1);
+            }
+        });
 }
 
 //添加学生信息
