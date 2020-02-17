@@ -15,7 +15,7 @@ public:
 		cout << "A析构了" << endl;
 	}
 };
-int main1()
+int main()
 {
 	unique_ptr<A>ptr1(new A());
 	unique_ptr<A>ptr2(move(ptr1)); //可以移动构造
